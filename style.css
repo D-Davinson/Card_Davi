@@ -5,9 +5,9 @@
 
 
 .card {
-    background-color: grey;
+    background-color: rgb(225, 185, 246);
     box-shadow: 0px 5px 10px 0 rgb(109, 38, 184);
-    max-width: 500px;
+    max-width: 475px;
     margin: auto;
     text-align: center;
   }
@@ -16,21 +16,26 @@
   .h1 {
     color: rgba(0, 0, 0, 0.965);
     font-size: 40px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
-  .title {
-    color: rgba(131, 13, 149, 0.573);
+  .title{
+    color: rgb(101, 9, 115);
     font-size: 30px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
+  .univ {
+    color: rgb(51, 0, 59);
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
   button {
     border: none;
     outline: 0;
     display: grid;
-    padding: 8px;
-    color: white;
-    background-color: rgb(95, 35, 75);
+    padding: 10px;
+    color: rgb(165, 165, 165);
+    background-color: rgb(83, 24, 36);
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -40,7 +45,7 @@
   a {
     text-decoration: none;
     font-size: 30px;
-    color: black;
+    color: rgb(16, 6, 11);
   }
   
   button:hover, a:hover {
