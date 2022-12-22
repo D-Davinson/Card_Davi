@@ -32,3 +32,11 @@ l4Array.map(lien => lien.addEventListener("click", (event) => {
     event.preventDefault();
     alert("☎️ Tel : +33.7.67.35.60.02");
 }));
+
+
+const contact = document.querySelectorAll("button");
+const Arraycontact = [...contact];
+Arraycontact.map(lien => lien.addEventListener("click", (event) => {
+    event.preventDefault();
+    alert(" 📤 : doglasprincedavinson@gmail.com  \n\n 📱 : 07.67.35.60.02" );
+}));
