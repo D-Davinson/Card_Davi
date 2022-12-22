@@ -1,6 +1,6 @@
 
   body{
-    background-color: black;
+    background-color: rgba(85, 85, 85, 0.858);
   }
 
 
@@ -44,5 +44,5 @@
   }
   
   button:hover, a:hover {
-    opacity: 0.7;
+    opacity: 0.2;
   }
