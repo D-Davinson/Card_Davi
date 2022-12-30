@@ -42,7 +42,7 @@ const img = document.querySelector('.img');
 
 
 //Moving Animation Event
-container.addEventListener('mousemove', e => {
+container.addEventListener('mousemove', (e) => {
     let xAixs = (window.innerWidth/2 - e.pageX)/10;
     let yAixs = (window.innerHeight/2 - e.pageY)/10;
     card.style.transform = `rotateY(${-xAixs}deg) rotateX(${-yAixs}deg)`;
