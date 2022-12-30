@@ -41,11 +41,6 @@ const h1 = document.querySelector('.h1');
 const img = document.querySelector('.img');
 
 
-
-
-
-
-
 //Moving Animation Event
 container.addEventListener('mousemove', e => {
     let xAixs = (window.innerWidth/2 - e.pageX)/10;
@@ -58,7 +53,7 @@ container.addEventListener('mousemove', e => {
 container.addEventListener('mouseenter' , (e) =>{
     card.style.transition = "none";
     h1.style.transform = 'translateZ(50px)';
-    img.style.transform = 'translateZ(15px) rotateZ(360deg)';
+    img.style.transform = 'translateZ(20px)';
    
 
 
