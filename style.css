@@ -1,10 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img{
+  transition: all 2s ease-out;
+}
 
   body{
     background-color: rgba(85, 85, 85, 0.858);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
   }
-
+.container{
+  width: 50%;
+}
 
 .card {
+  transform-style: preserve-3d;
     background-color: rgb(225, 185, 246);
     box-shadow: 0px 0px 40px rgb(109, 38, 184);
     max-width: 475px;
@@ -17,6 +34,7 @@
     color: rgba(0, 0, 0, 0.965);
     font-size: 40px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all 0.75s ease-out;
   }
   .title{
     color: rgb(101, 9, 115);
@@ -40,6 +58,7 @@
     cursor: pointer;
     width: 100%;
     font-size: 18px;
+    transition: all 0.75s ease-out;
     
   }
   
@@ -48,6 +67,7 @@
     font-size: 30px;
     color: rgb(16, 6, 11);
   }
+
   
   button:hover, a:hover {
     opacity: 0.7;
