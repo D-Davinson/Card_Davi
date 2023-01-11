@@ -65,6 +65,4 @@ container.addEventListener("mouseleave", (e) => {
     card.style.transform = `rotateY(0deg) rotateX(0deg)`;
     h1.style.transform = 'translateZ(0px)';
     img.style.transform = 'translateZ(0px)';
-
-
 });
