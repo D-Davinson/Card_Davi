@@ -53,7 +53,7 @@ container.addEventListener('mousemove', (e) => {
 container.addEventListener('mouseenter' , (e) =>{
     card.style.transition = "none";
     h1.style.transform = 'translateZ(50px)';
-    img.style.transform = 'translateZ(50px)';
+    img.style.transform = 'translateZ(15px)';
    
 });
 
