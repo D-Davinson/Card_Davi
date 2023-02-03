@@ -18,7 +18,8 @@
   }
 .container{
   width: 50%;
-}
+  height: 50%;
+  }
 
 .card {
   transform-style: preserve-3d;
@@ -28,7 +29,7 @@
     margin: auto;
     text-align: center;
   }
-  
+
 
   .h1 {
     color: rgba(0, 0, 0, 0.965);

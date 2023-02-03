@@ -1,7 +1,7 @@
 /******************************************************************REDIRECTION********************************************************************/
 // instragram
 [...document.querySelectorAll("a1")].map(lien => lien.addEventListener("click", (e) => {
-    event.preventDefault();
+    e.preventDefault();
     location.href="https://www.instagram.com/d_davi30/"
 }));
 
@@ -53,7 +53,7 @@ container.addEventListener('mousemove', (e) => {
 container.addEventListener('mouseenter' , (e) =>{
     card.style.transition = "none";
     h1.style.transform = 'translateZ(50px)';
-    img.style.transform = 'translateZ(15px)';
+    //img.style.transform = 'translateZ(15px)';
    
 });
 
@@ -61,7 +61,7 @@ container.addEventListener('mouseenter' , (e) =>{
 
 //Animation out
 container.addEventListener("mouseleave", (e) => {
-    card.style.transition = "all 0.5s ease";
+    card.style.transition = "all 1.5s ease";
     card.style.transform = `rotateY(0deg) rotateX(0deg)`;
     h1.style.transform = 'translateZ(0px)';
     img.style.transform = 'translateZ(0px)';
